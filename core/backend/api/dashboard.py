@@ -32,6 +32,7 @@ def dashboard(session):
 
     if not failed_sms_data:
         _response_dict['result'] = False
+        _response_dict['data'] = list()
         _response_dict['msg'] = filled_code_message('CM0034')
 
     if failed_sms_data:

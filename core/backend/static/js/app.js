@@ -218,7 +218,7 @@ app.controller('menuController',['$scope', 'http', '$state', '$stateParams', '$t
     'dashboard',
     'configuration',
     'scheduler',
-    'log',
+    //'log',
   ];
 
   $scope.navBarCollapse = function() {
